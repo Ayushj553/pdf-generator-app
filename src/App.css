@@ -1,0 +1,63 @@
+/* Apply a gradient background */
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background: linear-gradient(135deg, #83a4d4, #b6fbff); /* Gradient background */
+}
+
+/* Form container styling */
+form { 
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  border-radius: 12px; 
+  padding: 20px 30px; 
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+  max-width: 450px; 
+  width: 100%; 
+}
+
+/* Input fields */
+input, textarea { 
+  margin-bottom: 15px; 
+  padding: 12px; 
+  width: 100%; 
+  border: none; 
+  border-radius: 8px; 
+  background-color: #f0f0f0; 
+  box-sizing: border-box; 
+  font-size: 16px; 
+}
+
+input:focus, textarea:focus { 
+  outline: none; 
+  box-shadow: 0 0 5px #007bff; 
+}
+
+/* Button styling */
+button { 
+  padding: 12px 20px; 
+  width: 100%; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  font-weight: bold; 
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+button:hover { 
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+/* Heading styling */
+h1 { 
+  text-align: center; 
+  margin-bottom: 20px; 
+  color: #333; 
+}
